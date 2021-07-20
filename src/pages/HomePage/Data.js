@@ -5,30 +5,13 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Marketing Agency',
-  headline: 'Lead Generation Specialist for Online Businesses',
+  headline: 'MendingMinds',
   description:
     'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
-  buttonLabel: 'Get Started',
+  buttonLabel: 'Join Us!',
   imgStart: '',
-  img: require('../../images/svg-1.svg').default,
-  alt: 'Credit Card',
-  start: ''
-};
-
-export const homeObjTwo = {
-  primary: true,
-  lightBg: false,
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'Instant Setup',
-  headline: 'Extremely quick onboarding process',
-  description:
-    "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
-  buttonLabel: 'Learn More',
-  imgStart: '',
-  img: require('../../images/svg-1.svg').default,
-  alt: 'Vault',
+  img: require('../../images/profile.jpg').default,
+  alt: 'Hope',
   start: ''
 };
 
@@ -40,15 +23,34 @@ export const homeObjThree = {
   lightTextDesc: false,
   topLine: 'Sarah Jeni',
   headline:
-    'Ultra helped me increase my revenue by over 3X in less than 3 months!',
+    'Tell us about yourself',
   description:
-    "Their team is wonderful! I can't believe I didn't start working with them earlier.",
-  buttonLabel: 'View Case Study',
+    "Simply send a video of yourself to let us know you better",
+  buttonLabel: 'Upload',
   imgStart: 'start',
-  img: require('../../images/profile.jpg').default,
+  img: require('../../images/svg-2.svg').default,
   alt: 'Vault',
   start: 'true'
 };
+
+export const homeObjTwo = {
+  primary: true,
+  lightBg: false,
+  lightTopLine: true,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Instant Setup',
+  headline: 'Learn with those who have come before',
+  description:
+    "Delve into the experiences of patients and doctors with our articles and webinars",
+  buttonLabel: 'Read/Watch',
+  imgStart: '',
+  img: require('../../images/svg-1.svg').default,
+  alt: 'Vault',
+  start: ''
+};
+
+
 
 export const homeObjFour = {
   primary: true,
