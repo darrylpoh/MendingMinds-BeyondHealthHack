@@ -1,9 +1,10 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
 import { AiFillThunderbolt } from 'react-icons/ai';
-import { GiCrystalBars } from 'react-icons/gi';
+import { GiFaceToFace} from 'react-icons/gi';
 import { GiCutDiamond, GiRock } from 'react-icons/gi';
-import { GiFloatingCrystal } from 'react-icons/gi';
+import { GiMicrophone} from 'react-icons/gi'
+import { HiOutlineInformationCircle } from 'react-icons/hi';
 import { IconContext } from 'react-icons/lib';
 import {
   PricingSection,
@@ -30,13 +31,17 @@ function Pricing() {
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiRock />
+                  <GiMicrophone />
                 </PricingCardIcon>
                 <PricingCardPlan>Professional Talks</PricingCardPlan>
                 {/* <PricingCardCost>$99.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
-                  <PricingCardFeature>Talks given by professionals on   how to manage mental health in a workplace setting</PricingCardFeature>
+
+                  <PricingCardFeature>Talks given by professionals</PricingCardFeature>
+                  <PricingCardFeature>on how to manage mental </PricingCardFeature>
+                  <PricingCardFeature> health </PricingCardFeature>
+
                 </PricingCardFeatures>
                 <Button primary>Read More</Button>
               </PricingCardInfo>
@@ -44,13 +49,17 @@ function Pricing() {
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCrystalBars />
+                  <GiFaceToFace />
                 </PricingCardIcon>
                 <PricingCardPlan>Contract consulting</PricingCardPlan>
                 {/* <PricingCardCost>$299.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
-                  <PricingCardFeature>Enjoy regular dedicated therapy sessions by our team of professionals for your company</PricingCardFeature>
+
+                  <PricingCardFeature>Enjoy regular dedicated therapy</PricingCardFeature>
+                  <PricingCardFeature> sessions by our team of</PricingCardFeature>
+                  <PricingCardFeature> professionals for your company</PricingCardFeature>
+
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
@@ -58,13 +67,17 @@ function Pricing() {
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCutDiamond />
+                  <HiOutlineInformationCircle />
                 </PricingCardIcon>
                 <PricingCardPlan>Data Analytics</PricingCardPlan>
                 {/* <PricingCardCost>$999.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
-                  <PricingCardFeature>Receive vital statistics and advice on the mental well-being of members in your company</PricingCardFeature>
+
+                  <PricingCardFeature>Receive vtal statistics and</PricingCardFeature>
+                  <PricingCardFeature>advice on the mental </PricingCardFeature>
+                  <PricingCardFeature>well being of members</PricingCardFeature>
+                  <PricingCardFeature>in your company</PricingCardFeature>
 
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>

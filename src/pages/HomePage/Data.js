@@ -4,11 +4,11 @@ export const homeObjOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Marketing Agency',
+  topLine: 'For those who struggle emotionally and mentally',
   headline: 'MendingMinds',
   description:
-    'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
-  buttonLabel: 'Join Us!',
+    'Our primary goal is to be at the forefront of mental health and telemedicine.',
+  buttonLabel: 'Join Us',
   imgStart: '',
   img: require('../../images/profile.jpg').default,
   alt: 'Hope',
@@ -28,7 +28,9 @@ export const homeObjThree = {
     "Simply send a video of yourself to let us know you better",
   buttonLabel: 'Upload',
   imgStart: 'start',
-  img: require('../../images/svg-1.svg').default,
+
+  img: require('../../images/undraw_group_video_el8e.svg').default,
+
   alt: 'Vault',
   start: 'true'
 };
@@ -45,7 +47,7 @@ export const homeObjTwo = {
     "Delve into the experiences of patients and doctors with our articles and webinars",
   buttonLabel: 'Read/Watch',
   imgStart: '',
-  img: require('../../images/svg-1.svg').default,
+  img: require('../../images/undraw_doctors_hwty.svg').default,
   alt: 'Vault',
   start: ''
 };
@@ -64,7 +66,7 @@ export const homeObjFour = {
     'You will never have to worry about your information getting leaked. Our team of security experts will ensure your records are kept safe.',
   buttonLabel: 'Sign Up Now',
   imgStart: 'start',
-  img: require('../../images/svg-1.svg').default,
+  img: require('../../images/undraw_secure_files_re_6vdh.svg').default,
   alt: 'Vault',
   start: 'true'
 };
