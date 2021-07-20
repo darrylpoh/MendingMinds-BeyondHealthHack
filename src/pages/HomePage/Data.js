@@ -7,7 +7,7 @@ export const homeObjOne = {
   topLine: 'For those who struggle emotionally and mentally',
   headline: 'MendingMinds',
   description:
-    'Our primary goal is to be at the forefront of mental health and telemedicine.',
+    'Our primary goal is to be at the forefront of mental health and telemedicine',
   buttonLabel: 'Join Us',
   imgStart: '',
   img: require('../../images/profile.jpg').default,
