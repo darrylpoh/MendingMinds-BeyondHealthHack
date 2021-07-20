@@ -5,6 +5,7 @@ import { GiFaceToFace} from 'react-icons/gi';
 import { GiCutDiamond, GiRock } from 'react-icons/gi';
 import { GiMicrophone} from 'react-icons/gi'
 import { HiOutlineInformationCircle } from 'react-icons/hi';
+import {CgProfile} from 'react-icons/cg';
 import { IconContext } from 'react-icons/lib';
 import {
   PricingSection,
@@ -18,29 +19,30 @@ import {
   PricingCardCost,
   PricingCardLength,
   PricingCardFeatures,
-  PricingCardFeature
-} from './Pricing.elements';
+  PricingCardFeature,
+  ImgWrapper,
+  Img
+} from './Testimonials.elements';
 
-function Pricing() {
+function Testimonials() {
   return (
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>For The Workplace</PricingHeading>
+          <PricingHeading>The Library</PricingHeading>
           <PricingContainer>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiMicrophone />
+                  <CgProfile />
                 </PricingCardIcon>
-                <PricingCardPlan>Professional Talks</PricingCardPlan>
+                <PricingCardPlan>Kenn</PricingCardPlan>
                 {/* <PricingCardCost>$99.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
 
-                  <PricingCardFeature>Talks given by professionals</PricingCardFeature>
-                  <PricingCardFeature>on how to manage mental </PricingCardFeature>
-                  <PricingCardFeature> health </PricingCardFeature>
+                  <PricingCardFeature>Hear how he has benefitted </PricingCardFeature>
+                  <PricingCardFeature>from our web app.</PricingCardFeature>
 
                 </PricingCardFeatures>
                 <Button primary>Read More</Button>
@@ -48,10 +50,8 @@ function Pricing() {
             </PricingCard>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
-                <PricingCardIcon>
-                  <GiFaceToFace />
-                </PricingCardIcon>
-                <PricingCardPlan>Contract consulting</PricingCardPlan>
+                <Img src= '../../images/pexels-mentatdgt-937483.jpg' />
+                <PricingCardPlan>Dr Janice Tan</PricingCardPlan>
                 {/* <PricingCardCost>$299.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
@@ -69,12 +69,12 @@ function Pricing() {
                 <PricingCardIcon>
                   <HiOutlineInformationCircle />
                 </PricingCardIcon>
-                <PricingCardPlan>Data Analytics</PricingCardPlan>
+                <PricingCardPlan>Ek Soo</PricingCardPlan>
                 {/* <PricingCardCost>$999.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
 
-                  <PricingCardFeature>Receive vital statistics and</PricingCardFeature>
+                  <PricingCardFeature>Receive vtal statistics and</PricingCardFeature>
                   <PricingCardFeature>advice on the mental </PricingCardFeature>
                   <PricingCardFeature>well being of members</PricingCardFeature>
                   <PricingCardFeature>in your company</PricingCardFeature>
@@ -89,5 +89,5 @@ function Pricing() {
     </IconContext.Provider>
   );
 }
-export default Pricing;
+export default Testimonials ;
 // {"mode":"full","isActive":false}

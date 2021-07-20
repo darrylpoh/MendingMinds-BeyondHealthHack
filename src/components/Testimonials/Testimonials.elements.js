@@ -24,7 +24,7 @@ export const PricingWrapper = styled.div`
 `;
 
 export const PricingHeading = styled.h1`
-  color: #fff;
+  color: #000;
   font-size: 48px;
   margin-bottom: 24px;
 `;
@@ -47,7 +47,7 @@ export const PricingCard = styled(Link)`
   background: #242424;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
-  height: 500px;
+  height: 350px;
   text-decoration: none;
   border-radius: 20px;
 
@@ -109,4 +109,17 @@ export const PricingCardFeatures = styled.ul`
 export const PricingCardFeature = styled.li`
   margin-bottom: 10px;
 `;
+export const ImgWrapper = styled.div`
+  max-width: 100px;
+  display: flex;
+  justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+`;
+export const Img = styled.img`
+  padding-right: 10px;
+  border: 10px;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  max-height: 168px;
+  `;
 // {"mode":"full","isActive":false}
