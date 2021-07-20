@@ -51,17 +51,17 @@ function Navbar() {
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
                 <NavLinks to='/' onClick={closeMobileMenu}>
-                  Home
+                  About You
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/services' onClick={closeMobileMenu}>
-                  Services
+                <NavLinks to='/Stories' onClick={closeMobileMenu}>
+                  Your Stories
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/products' onClick={closeMobileMenu}>
-                  Products
+                <NavLinks to='/Workplace' onClick={closeMobileMenu}>
+                  Workplace
                 </NavLinks>
               </NavItem>
               <NavItemBtn>

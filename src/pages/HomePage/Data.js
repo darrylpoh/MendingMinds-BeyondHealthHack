@@ -21,14 +21,16 @@ export const homeObjThree = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Sarah Jeni',
+  // topLine: 'Sarah Jeni',
   headline:
     'Tell us about yourself',
   description:
     "Simply send a video of yourself to let us know you better",
   buttonLabel: 'Upload',
   imgStart: 'start',
+
   img: require('../../images/undraw_group_video_el8e.svg').default,
+
   alt: 'Vault',
   start: 'true'
 };
@@ -39,7 +41,7 @@ export const homeObjTwo = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Instant Setup',
+  // topLine: 'Instant Setup',
   headline: 'Learn with those who have come before',
   description:
     "Delve into the experiences of patients and doctors with our articles and webinars",

@@ -37,9 +37,11 @@ function Pricing() {
                 {/* <PricingCardCost>$99.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
+
                   <PricingCardFeature>Talks given by professionals</PricingCardFeature>
                   <PricingCardFeature>on how to manage mental </PricingCardFeature>
                   <PricingCardFeature> health </PricingCardFeature>
+
                 </PricingCardFeatures>
                 <Button primary>Read More</Button>
               </PricingCardInfo>
@@ -53,9 +55,11 @@ function Pricing() {
                 {/* <PricingCardCost>$299.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
+
                   <PricingCardFeature>Enjoy regular dedicated therapy</PricingCardFeature>
                   <PricingCardFeature> sessions by our team of</PricingCardFeature>
                   <PricingCardFeature> professionals for your company</PricingCardFeature>
+
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
@@ -69,10 +73,12 @@ function Pricing() {
                 {/* <PricingCardCost>$999.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
-                  <PricingCardFeature>Receive vital statistics and</PricingCardFeature>
+
+                  <PricingCardFeature>Receive vtal statistics and</PricingCardFeature>
                   <PricingCardFeature>advice on the mental </PricingCardFeature>
                   <PricingCardFeature>well being of members</PricingCardFeature>
                   <PricingCardFeature>in your company</PricingCardFeature>
+
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
