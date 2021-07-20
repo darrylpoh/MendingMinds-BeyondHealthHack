@@ -2,7 +2,7 @@ import React from 'react';
 import { InfoSection } from '../../components';
 import { homeObjOne, homeObjTwo } from './Data';
 
-function Products() {
+function Stories() {
   return (
     <>
       <InfoSection {...homeObjOne} />
@@ -11,5 +11,5 @@ function Products() {
   );
 }
 
-export default Products;
+export default Stories;
 // {"mode":"full","isActive":false}

@@ -36,8 +36,7 @@ function Pricing() {
                 {/* <PricingCardCost>$99.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
-                  <PricingCardFeature>Talks given by professionals</PricingCardFeature>
-                  <PricingCardFeature>on how to manager mental health</PricingCardFeature>
+                  <PricingCardFeature>Talks given by professionals on   how to manage mental health in a workplace setting</PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Read More</Button>
               </PricingCardInfo>
@@ -51,8 +50,7 @@ function Pricing() {
                 {/* <PricingCardCost>$299.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
-                  <PricingCardFeature>Enjoy regular dedicated therapy sessions</PricingCardFeature>
-                  <PricingCardFeature>by our team of professionals for your company</PricingCardFeature>
+                  <PricingCardFeature>Enjoy regular dedicated therapy sessions by our team of professionals for your company</PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
@@ -66,8 +64,8 @@ function Pricing() {
                 {/* <PricingCardCost>$999.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
-                  <PricingCardFeature>Receive vital statistics and advice on</PricingCardFeature>
-                  <PricingCardFeature>the mental well-being of members in your company</PricingCardFeature>
+                  <PricingCardFeature>Receive vital statistics and advice on the mental well-being of members in your company</PricingCardFeature>
+
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
