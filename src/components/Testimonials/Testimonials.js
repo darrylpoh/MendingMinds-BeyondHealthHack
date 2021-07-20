@@ -36,13 +36,13 @@ function Testimonials() {
                 <PricingCardIcon>
                   <CgProfile />
                 </PricingCardIcon>
-                <PricingCardPlan>Kenn</PricingCardPlan>
+                <PricingCardPlan>Kenn Tan</PricingCardPlan>
                 {/* <PricingCardCost>$99.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
 
-                  <PricingCardFeature>Hear how he has benefitted </PricingCardFeature>
-                  <PricingCardFeature>from our web app.</PricingCardFeature>
+                  <PricingCardFeature>Read about how he has  </PricingCardFeature>
+                  <PricingCardFeature>benefitted from our web app</PricingCardFeature>
 
                 </PricingCardFeatures>
                 <Button primary>Read More</Button>
@@ -50,37 +50,36 @@ function Testimonials() {
             </PricingCard>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
-                <Img src= '../../images/pexels-mentatdgt-937483.jpg' />
+              <PricingCardIcon>
+                  <CgProfile />
+                </PricingCardIcon>
                 <PricingCardPlan>Dr Janice Tan</PricingCardPlan>
                 {/* <PricingCardCost>$299.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
 
-                  <PricingCardFeature>Enjoy regular dedicated therapy</PricingCardFeature>
-                  <PricingCardFeature> sessions by our team of</PricingCardFeature>
-                  <PricingCardFeature> professionals for your company</PricingCardFeature>
+                  <PricingCardFeature>Watch this webinar to </PricingCardFeature>
+                  <PricingCardFeature> learn how to identify MDD</PricingCardFeature>
 
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Watch Now</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <HiOutlineInformationCircle />
+                <CgProfile />
                 </PricingCardIcon>
-                <PricingCardPlan>Ek Soo</PricingCardPlan>
+                <PricingCardPlan>Faez Nabil</PricingCardPlan>
                 {/* <PricingCardCost>$999.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength> */}
                 <PricingCardFeatures>
 
-                  <PricingCardFeature>Receive vtal statistics and</PricingCardFeature>
-                  <PricingCardFeature>advice on the mental </PricingCardFeature>
-                  <PricingCardFeature>well being of members</PricingCardFeature>
-                  <PricingCardFeature>in your company</PricingCardFeature>
+                  <PricingCardFeature>Learning how to empathise</PricingCardFeature>
+                  <PricingCardFeature> with those around you </PricingCardFeature>
 
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Read More</Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>

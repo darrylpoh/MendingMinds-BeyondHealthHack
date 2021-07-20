@@ -6,8 +6,8 @@ function Stories() {
   return (
     <>
       <Testimonials />
-      <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjOne} />
     </>
   );
 }
