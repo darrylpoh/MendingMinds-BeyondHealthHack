@@ -1,4 +1,4 @@
-# MendingMinds
+# MendingMinds:brain:
 A one-stop web application that serves to reduce costs, educate and minimize bottlenecks
 
 ## Beyond Health Hack
